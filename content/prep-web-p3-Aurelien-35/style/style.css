@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /* Colors */
 /* Purple6 */
 /* Amber6 */
@@ -307,6 +307,7 @@
   color: transparent;
   background: radial-gradient(circle at center, #ffc107, black 20%);
   background-clip: text;
+  -webkit-background-clip: text;
   animation: background-movement 20s infinite;
 }
 .page-menu-1 .line {
