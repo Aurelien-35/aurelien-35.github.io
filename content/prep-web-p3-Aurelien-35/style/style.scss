@@ -203,7 +203,6 @@ $band-height-small : 48px;
     font-family: $montserrat;
     font-size: 1rem;
     text-decoration: none;
-    word-spacing: -16px;
     color: $primary-dark;
     background-color: $secondary-color;
     border-radius: 4px;
@@ -374,6 +373,7 @@ $band-height-small : 48px;
         color: transparent;
         background: radial-gradient(circle at center, $secondary-color, black 20%);
         background-clip: text;
+        -webkit-background-clip: text;
         animation: background-movement 20s infinite;
     }
 
