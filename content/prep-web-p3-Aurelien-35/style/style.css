@@ -287,11 +287,13 @@
   flex: 1 1 auto;
   background: linear-gradient(to left, black, #d05ce3);
   clip-path: polygon(0 50%, 75% 35%, 85% 50%, 75% 65%);
+  -webkit-clip-path: polygon(0 50%, 75% 35%, 85% 50%, 75% 65%);
 }
 .page-menu .bloc-title-line .line-right {
   flex: 1 1 auto;
   background: linear-gradient(to right, black, #d05ce3);
   clip-path: polygon(15% 50%, 30% 35%, 100% 50%, 30% 65%);
+  -webkit-clip-path: polygon(0 50%, 75% 35%, 85% 50%, 75% 65%);
 }
 
 .page-menu-1 .menu-big-title,

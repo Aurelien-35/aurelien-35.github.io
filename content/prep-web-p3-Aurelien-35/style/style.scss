@@ -346,12 +346,14 @@ $band-height-small : 48px;
             flex: 1 1 auto;
             background: linear-gradient(to left, black, $primary-light);
             clip-path: polygon(0 50%, 75% 35%, 85% 50%, 75% 65%);
+            -webkit-clip-path: polygon(0 50%, 75% 35%, 85% 50%, 75% 65%);
         }
 
         .line-right {
             flex: 1 1 auto;
             background: linear-gradient(to right, black, $primary-light);
             clip-path: polygon(15% 50%, 30% 35%, 100% 50%, 30% 65%);
+            -webkit-clip-path: polygon(0 50%, 75% 35%, 85% 50%, 75% 65%);
         }
 
     }
