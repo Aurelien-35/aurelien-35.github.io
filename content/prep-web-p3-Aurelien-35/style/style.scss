@@ -60,10 +60,6 @@ $band-height-small : 48px;
     background-color: white;
 }
 
-.title-band a {
-    text-decoration: none;
-}
-
 /*réduction de la taille du logo pour l'affichage 320px*/
 .resize-for-small-screen {
     height: $band-height;
@@ -135,7 +131,6 @@ $band-height-small : 48px;
 
 .box-wrap a {
     color: black;
-    text-decoration: none;
 }
 
 .menu-card-primary-title {
@@ -339,7 +334,6 @@ $band-height-small : 48px;
             font-weight: bold;
             text-align: right;
         }
-
     }
 
     /* lignes décoratives qui entourent les titres */

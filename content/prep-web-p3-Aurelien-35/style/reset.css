@@ -38,12 +38,12 @@ ol, ul {
 	list-style: none;
 }
 
-/* nouveaux resets */
+/* suppression des bordures des champs de formulaires */
 
 input, textarea {
 	border: none;
 }
-
+/* suppression du soulignage des liens*/
 a {
 	text-decoration: none;
 }

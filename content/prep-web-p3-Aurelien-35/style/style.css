@@ -29,10 +29,6 @@
   background-color: white;
 }
 
-.title-band a {
-  text-decoration: none;
-}
-
 /*réduction de la taille du logo pour l'affichage 320px*/
 .resize-for-small-screen {
   height: 48px;
@@ -104,7 +100,6 @@
 
 .box-wrap a {
   color: black;
-  text-decoration: none;
 }
 
 .menu-card-primary-title {
