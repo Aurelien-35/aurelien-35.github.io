@@ -417,11 +417,12 @@
 
 .input-bloc {
   min-width: 244px;
-  line-height: 40px;
+  line-height: 16px;
   margin-top: 16px;
   margin-left: 4px;
   padding-left: 16px;
-  padding-top: 6px;
+  padding-top: 17px;
+  padding-bottom: 9px;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   font-weight: normal;
@@ -440,7 +441,7 @@
   font-size: 1.1rem;
   font-weight: normal;
   color: gray;
-  transition: all 0.25s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
   cursor: text;
 }
 
