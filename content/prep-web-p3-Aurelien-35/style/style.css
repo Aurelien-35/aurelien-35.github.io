@@ -415,19 +415,6 @@
   position: relative;
 }
 
-.label-animated {
-  display: block;
-  position: absolute;
-  top: 30px;
-  left: 16px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.1rem;
-  font-weight: normal;
-  cursor: text;
-  color: gray;
-  transition: all 0.25s ease-in-out 0s;
-}
-
 .input-bloc {
   min-width: 244px;
   line-height: 40px;
@@ -444,7 +431,20 @@
 }
 
 /* animation du label */
-.input-bloc:focus ~ .label-animated, .input-bloc:valid ~ .label-animated {
+.label-animated {
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  font-weight: normal;
+  color: gray;
+  transition: all 0.25s ease-in-out 0s;
+  cursor: text;
+}
+
+.input-bloc:focus ~ .label-animated, .input-bloc:not(:placeholder-shown) ~ .label-animated {
   top: 22px;
   left: 12px;
   font-size: 0.6rem;
