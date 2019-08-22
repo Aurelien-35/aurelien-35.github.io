@@ -410,18 +410,45 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.bloc-input-label {
+  display: block;
+  position: relative;
+}
+
+.label-animated {
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  font-weight: normal;
+  cursor: text;
+  color: gray;
+  transition: all 0.25s ease-in-out 0s;
+}
+
 .input-bloc {
   min-width: 244px;
-  line-height: 36px;
+  line-height: 40px;
   margin-top: 16px;
   margin-left: 4px;
   padding-left: 16px;
+  padding-top: 6px;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   font-weight: normal;
   border-bottom: 1px solid silver;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
+}
+
+/* animation du label */
+.input-bloc:focus ~ .label-animated, .input-bloc:valid ~ .label-animated {
+  top: 22px;
+  left: 12px;
+  font-size: 0.6rem;
+  cursor: pointer;
 }
 
 .input-bloc-textarea {
