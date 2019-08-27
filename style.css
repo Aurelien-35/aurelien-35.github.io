@@ -58,6 +58,7 @@ a {
 }
 
 .button {
+    margin: 1rem;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;
     line-height: 2rem;
@@ -68,12 +69,32 @@ a {
     color: white;
 }
 
+.button-purple {
+    background-color: #6a1b9a;
+    border: solid 1px #6a1b9a;
+}
+
+.button-purple:hover {
+    color: #6a1b9a;
+    background-color: white;
+}
+
+.button-orange {
+    background-color: #ffa000;
+    border: solid 1px #ffa000;
+}
+
+.button-orange:hover {
+    color: #ffa000;
+    background-color: white;
+}
+
 .button-green {
-    background-color: darkgreen;
-    border: solid 1px darkgreen;
+    background-color: #388e3c;
+    border: solid 1px #388e3c;
 }
 
 .button-green:hover {
-    color: darkgreen;
+    color: #388e3c;
     background-color: white;
 }
