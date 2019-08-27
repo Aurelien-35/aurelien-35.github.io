@@ -48,8 +48,12 @@ a {
 	text-decoration: none;
 }
 
-.main-title {
-    font-family: 'Livvic', sans-serif;
+/* page */
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .color-band {
@@ -57,13 +61,40 @@ a {
     background-color: cornflowerblue;
 }
 
-.button {
-    margin: 1rem;
+.color-line {
+    height: 1px;
+    background-color: cornflowerblue;
+    margin-bottom: 16px;
+}
+
+.my-name {
+    font-family: 'Hepta Slab', serif;
+    font-size: 3rem;
+    margin: 16px;
+}
+
+.my-status {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.2rem;
-    line-height: 2rem;
+    font-size: 1.5rem;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+main {
+    padding: 16px;
+    flex-grow: 1;
+}
+
+.button {
+    margin: 8px;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 32px;
+    font-family: 'Livvic', sans-serif;
+    font-size: 1rem;
+    line-height: 12px;
     padding: 8px;
-    border-radius: 4px;
+    border-radius: 12px;
     transition: all 0.35s ease-in-out;
     text-align: center;
     color: white;
