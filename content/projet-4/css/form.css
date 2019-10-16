@@ -94,3 +94,10 @@
     border: 2px solid #F3976C;
     box-shadow: 2px 2px 10px #F3976C;
 }
+
+@media (max-width: 768px) {
+    .contact-select-field {
+        font-size: 0.9rem;
+        background-position: right;
+    }
+}
