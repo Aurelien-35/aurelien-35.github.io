@@ -264,7 +264,7 @@ a:focus {
     width: 450px;
     height: 300px;
     border: 2px solid rgba(243, 151, 108, 0.1);
-    border-bottom: 2px solid #F3976C; 
+    border-bottom: 2px solid #B75B30; 
     margin: 32px auto;
 }
 
@@ -292,7 +292,7 @@ a:focus {
     border: none;        
     font-size: 1rem;
     font-weight: 700;
-    background-color: #F3976C;
+    background-color: #B75B30;
     color: white;
     cursor: pointer;
 }
