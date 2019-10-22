@@ -3,7 +3,7 @@
     padding: 18px 12px 6px;
     font-size: 1.2rem;
     line-height: 20px;
-    border-bottom: 2px solid #F3976C;
+    border-bottom: 2px solid gray;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -36,13 +36,13 @@
     padding: 12px 8px 8px;
     font-size: 1.2rem;
     line-height: 20px;
-    border-bottom: 2px solid #F3976C;
+    border-bottom: 2px solid grey;
     border-top: none;
     border-left: none;
     border-right: none;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
-    background: url("../caret-down-solid.svg"), rgba(243, 151, 108, 0.1);
+    background: url("../img/caret-down-solid.svg"), rgba(243, 151, 108, 0.1);
     background-repeat: no-repeat;
     background-position: 430px 0px;
     margin-bottom: 32px;
@@ -63,7 +63,7 @@
     padding: 18px 12px 6px;
     font-size: 1.2rem;
     line-height: 20px;
-    border-bottom: 2px solid #F3976C;
+    border-bottom: 2px solid grey;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -91,8 +91,8 @@
 }
 
 .invalid {
-    border: 2px solid #F3976C;
-    box-shadow: 2px 2px 10px #F3976C;
+    border: 2px solid red;
+    box-shadow: 2px 2px 10px red;
 }
 
 @media (max-width: 768px) {
